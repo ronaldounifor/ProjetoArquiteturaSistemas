@@ -1,3 +1,5 @@
+package veiculo;
+
 public class Veiculo {
     public void frear() {}
     public void ligar() {}

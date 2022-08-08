@@ -1,3 +1,5 @@
+package pinguim;
+
 public class Pinguim {
     public void nadar() {}
     public void comer() {}
