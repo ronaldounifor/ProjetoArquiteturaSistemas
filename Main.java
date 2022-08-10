@@ -1,21 +1,14 @@
-import quarto.*;
-
-import java.util.ArrayList;
-import java.util.List;
+import cozinha.Fogao;
+import cozinha.Forno;
+import cozinha.Gas;
 
 public class Main {
     public static void main (String [] args) {
-        ArrayList<Movel> listaDeMoveis = new ArrayList<Movel>();
-        listaDeMoveis.add(new Cama());
-        listaDeMoveis.add(new Escrivaninha());
-        listaDeMoveis.add(new GuardaRoupa());
-        listaDeMoveis.add(new Cadeira());
-
-        arrumarQuarto(listaDeMoveis);
+        Gas gas = new Fogao();
+        manutencao(gas);
     }
 
-    public static void arrumarQuarto(List<Movel> moveis) {
-        for (Movel movel:moveis)
-            movel.arrumar();
+    public static void manutencao(Forno forno) {
+
     }
 }
