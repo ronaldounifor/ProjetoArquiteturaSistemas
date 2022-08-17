@@ -1,14 +1,15 @@
-import cozinha.Fogao;
-import cozinha.Forno;
-import cozinha.Gas;
+import pinguim.Pinguim;
+import pinguim.PinguimVoador;
 
 public class Main {
     public static void main (String [] args) {
-        Gas gas = new Fogao();
-        manutencao(gas);
+        Pinguim gessevaldo = new PinguimVoador();
+        ((PinguimVoador)gessevaldo).voar();
+
+        alimentar(gessevaldo);
     }
 
-    public static void manutencao(Forno forno) {
-
+    public static void alimentar(Pinguim pinguim) {
+        pinguim.comer();
     }
 }

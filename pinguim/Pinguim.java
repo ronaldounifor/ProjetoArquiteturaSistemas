@@ -5,5 +5,4 @@ public class Pinguim {
     public void comer() {}
     public void botarOvo() {}
     public void dormir() {}
-
 }
